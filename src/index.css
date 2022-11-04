@@ -1,0 +1,179 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100px;
+  width: 100%;
+}
+
+/* @media (min-width: 500px)  {
+  footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+} */
+
+/* section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+} */
+
+main {
+  max-width: 1440px;
+  position: relative;
+  margin: 0 10px;
+  padding-top: 20px;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-pic {
+  margin-bottom: 1.5rem;
+}
+
+.names__holder a {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+}
+
+
+
+#profile__img {
+  border-radius: 50%;
+  height:100px;
+  width:100px;
+}
+
+
+#slack {
+  display: none;
+} 
+
+.share__icon,
+.more__icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.share__icon:hover,
+.more__icon:hover {
+  cursor: pointer;
+}
+
+.share__icon {
+  display: none;
+}
+
+
+.links__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0
+}
+
+.links__section a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-radius: 5px;
+  width: 100%;
+  background-color:  #f2f2f2;
+}
+
+.links__section a:hover {
+  background-color:  #d9d9d9;
+}
+
+
+.social__logos {
+  width: 100%;
+  margin: 30px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+
+@media (min-width: 560px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .more__icon {
+    display: none;
+  }
+
+  .share__icon {
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 5px;
+  }
+
+  .links__section {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
