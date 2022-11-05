@@ -17,10 +17,7 @@ html {
     line-height: 1.5rem;
   }
 
-  /* .contact__container {
-    margin: 130px 120px 188px;
-    border-color: red;
-  } */
+
 
   .contact__container {
     margin: 64px 0;
@@ -87,9 +84,9 @@ html {
   }
 
 
-  input:focus {
+  /* input:focus {
     border: 1px solid blue;
-  }
+  } */
 
 
   textarea {
@@ -102,9 +99,7 @@ html {
     outline: none;
   }
 
-  textarea:focus {
-    border: 1px solid blue;
-  }
+ 
 
   .checkbox_field {
     display: flex;
@@ -129,4 +124,10 @@ html {
     color: white;
     font-weight: 600;
     cursor: pointer;
+  }
+
+  @media (min-width:560px){
+    .name {
+        flex-direction: row;
+    }
   }
