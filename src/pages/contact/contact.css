@@ -84,9 +84,9 @@ html {
   }
 
 
-  /* input:focus {
+  input:focus {
     border: 1px solid blue;
-  } */
+  }
 
 
   textarea {
@@ -126,7 +126,20 @@ html {
     cursor: pointer;
   }
 
+  form button:hover {
+    background-color: #2828ec;
+    border: 1px solid #2828ec;
+  }
+
   @media (min-width:560px){
+    .contact__container {
+        margin: 80px 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+      }
+
+
     .name {
         flex-direction: row;
     }

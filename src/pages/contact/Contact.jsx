@@ -90,8 +90,6 @@ const Contact = () => {
                         <textarea
                             name="message"
                             id='message'
-                            cols="30"
-                            rows="10"
                             placeholder="Send me a message and I'll reply you as soon as possible"
                             value={inputs.message}
                             onChange={handleChange}
