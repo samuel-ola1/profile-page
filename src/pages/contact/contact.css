@@ -133,7 +133,7 @@ html {
 
   @media (min-width:560px){
     .contact__container {
-        margin: 80px 120px;
+        margin: 40px 120px;
         display: flex;
         flex-direction: column;
         gap: 48px;
