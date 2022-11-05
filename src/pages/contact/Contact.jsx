@@ -25,6 +25,13 @@ const Contact = () => {
 
     function handleSubmit(event) {
         event.preventDefault();
+        setInput({
+            firstname: "",
+            lastname: "",
+            email: "",
+            message: "",
+            agree: false
+        });
     }
 
 
