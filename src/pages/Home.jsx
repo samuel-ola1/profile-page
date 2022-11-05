@@ -7,7 +7,7 @@ import githubIcon from "/src/assets/github.png";
 
 const Home = () => {
     return (
-        <main>
+        <main className="home">
             <Header />
             <LinksSection />
             <div className="social__logos">

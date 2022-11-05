@@ -7,7 +7,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
+body, *{
   margin: 0;
   padding: 0;
   background-color: white;
@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   line-height: 1.5rem;
 }
+
 
 h2 {
   margin: 0;
@@ -30,23 +31,6 @@ img {
   max-width: 100px;
   width: 100%;
 }
-
-/* @media (min-width: 500px)  {
-  footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-} */
-
-/* section ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-} */
 
 main {
   max-width: 1440px;
@@ -64,6 +48,7 @@ header {
   justify-content: center;
   margin-bottom: 1.5rem;
 }
+
 
 .profile-pic {
   margin-bottom: 1.5rem;
@@ -141,6 +126,14 @@ header {
   align-items: center;
   gap: 20px;
 }
+
+/* styles for the contact page */
+span:not([class="checkbox"]) {
+  display: block;
+}
+
+
+/* footer styles */
 
 footer {
   margin-top: 20px;

@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const LinksSection = () => {
     return (
@@ -9,7 +9,7 @@ const LinksSection = () => {
             <a href='https://books.zuri.team/python-for-beginners?ref_id=sammy' target="blank" id="book__python">Python Books</a>
             <a href="https://background.zuri.team" target="blank" id="pitch">Background Check for Coders</a>
             <a href="https://books.zuri.team/design-rules" target="blank" id="book__design">Design Books</a>
-            <Link to="/contact">Contact me</Link>
+            <Link to="/contact" id="contact">Contact me</Link>
       </section>
     );
 }
